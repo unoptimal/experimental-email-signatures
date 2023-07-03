@@ -1,0 +1,25 @@
+
+
+<html style="max-height: 280px; max-width: 316px; min-width: 316px;">
+    <style>
+        body {
+            max-width: 316px;
+            font-family: Arial, sans-serif;  
+            color: #333;
+        }
+    </style>
+
+
+<body style="height: auto;">
+  <input id="userName" placeholder="Enter your name">
+  <button id="saveName">Save Name</button>
+  <p id="savedName" style="justify-content: center;">No name saved.</p>
+  <textarea id="customSignatures" style="width: 300px; height: 100px; resize:none; "placeholder="Enter your custom signatures, separated by semicolons (i.e Best;Warmly;Cheers;). Otherwise this will pull from a list of premade email signatures."></textarea>
+  <button id="saveSignatures">Save Signatures</button>
+  <p id="savedSignatures">No signatures saved.</p>
+  <input type="checkbox" id="useCustomSignatures"> Use Custom Signatures
+  <br>
+  <button id="generateSignature">Generate Signature</button>
+  <script src="popup.js"></script>
+</body>
+</html>

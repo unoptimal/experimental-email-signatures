@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Experimental Email Signatures",
+    "version": "1.0",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+      }
+  }
+  
